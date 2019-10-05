@@ -1,0 +1,28 @@
+{
+  "name": "karen-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --no-deprecation --use_strict .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dateformat": "^3.0.3",
+    "discord.js": "github:discordjs/discord.js",
+    "discord.js-commando": "github:discordjs/Commando",
+    "express": "^4.16.4",
+    "node-fetch": "^2.6.0",
+    "sqlite": "^3.0.3"
+  },
+  "engines": {
+    "node": "10.16.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": []
+}
